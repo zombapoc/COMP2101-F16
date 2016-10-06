@@ -15,6 +15,6 @@ foodindex=$((die1 + die2))
 # for dicetotal, have to add 2 because the remainders are in the range of 0-5 and dice go 1-6
 dicetotal=$((die1 + die2 + 2))
 # look up the data first to make the output command more readable
-$food=${foods[$foodindex]}
+food=${foods[$foodindex]}
 # everything done, produce output
 echo "Yum, I rolled $dicetotal which gives me $food!"
